@@ -1,0 +1,165 @@
+.murus-container {
+    min-height: 100vh;
+    font-family: sans-serif;
+    color: #1f2937; /* gray-900 */
+  }
+  
+  /* Hero */
+  .hero {
+    background: linear-gradient(to right, #4f46e5, #10b981);
+    padding: 6rem 1.5rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .hero h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+  .hero-btn {
+    padding: 0.75rem 2rem;
+    width: 25vh;
+    background: white;
+    color: #4f46e5;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 9999px;
+  }
+  .hero-btn:hover {
+    box-shadow: 0 15px 25px -5px rgba(0,0,0,0.15);
+  }
+  
+  /* Features */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+    padding: 4rem 1.5rem;
+  }
+  .feature-card {
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s;
+  }
+  .feature-card:hover {
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  }
+  .feature-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Phases */
+  .phases {
+    background: #f9fafb;
+    padding: 4rem 1.5rem;
+    text-align: center;
+  }
+  .phases h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  .phase-list > div {
+    margin-bottom: 2rem;
+  }
+  .phase-list h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .phase-list p {
+    margin-top: 0.5rem;
+  }
+  
+  /* Pricing */
+  .pricing {
+    padding: 4rem 1.5rem;
+    text-align: center;
+  }
+  .pricing h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  .pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    max-width: 64rem;
+    margin: 0 auto;
+  }
+  .card {
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+  }
+  .card.keep button,
+  .card.citadel button {
+    padding: 0.5rem 1rem;
+    background: #6366f1;
+    color: white;
+    border-radius: 9999px;
+  }
+  .card.bastion {
+    border-width: 2px;
+    border-color: #6366f1;
+  }
+  .card.bastion button {
+    padding: 0.5rem 1rem;
+    background: #6366f1;
+    color: white;
+    border-radius: 9999px;
+  }
+  .pricing ul {
+    list-style: disc inside;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  /* Call to Action */
+  .cta {
+    background: linear-gradient(to right, #34d399, #6366f1);
+    padding: 4rem 1.5rem;
+    text-align: center;
+    color: white;
+  }
+  .cta h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .cta button {
+    padding: 0.75rem 2rem;
+    background: white;
+    color: #10b981;
+    font-weight: 600;
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s;
+  }
+  .cta button:hover {
+    box-shadow: 0 15px 25px -5px rgba(0,0,0,0.15);
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
